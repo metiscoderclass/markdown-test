@@ -1,3 +1,8 @@
-# My Awesome Book
+# Module Python 3 - Vaardigheden
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+In dit boek leer je belangrijke vaardigheden die je nodig hebt om de module Python 3 van de Coderclass te maken. Onderwerpen waar je over gaat leren zijn:
+
+* Dictionary - Een datastructuur in Python. Je gebruikt dit als je sleutel-waarde paren wilt opslaan en/of als je ongeordende data wilt opslaan.
+
+
+
