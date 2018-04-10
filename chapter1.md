@@ -16,6 +16,12 @@ Hieronder bouw ik een dictionary fruitmand, met drie elementen, namelijk de key 
 
 <iframe src="https://trinket.io/embed/python/08a7182023" width="100%" height="170" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
+Om een waarde te vinden die hoort bij een specifieke sleutel, gebruik je dezelfde syntax als voor een list, behalve dat waar je bij een list de index schrijft, je bij een dictionary de gezochte key schrijft.
+
+In het voorbeeld zoeken we het getal op dat hoort bij de sleutel "banaan".
+
+<iframe src="https://trinket.io/embed/python3/d3e8024d76" width="100%" height="170" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
 ~~~python
 fruitmand =
 ~~~
