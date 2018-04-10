@@ -14,7 +14,7 @@ Dictionaries creÃ«er middels accolades `{}`, vergelijkbaar met hoe je lists creÃ
 
 Hieronder bouw ik een dictionary fruitmand, met drie elementen, namelijk de key "appel" met waarde 3, de key "banaan" met waarde 5, en de key "kers" met waarde 50.
 
-<iframe src="https://trinket.io/embed/python/08a7182023" width="100%" height="100" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/08a7182023" width="100%" height="170" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ~~~python
 fruitmand =
