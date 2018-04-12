@@ -14,13 +14,21 @@ Dictionaries creÃ«er middels accolades `{}`, vergelijkbaar met hoe je lists creÃ
 
 Hieronder bouw ik een dictionary fruitmand, met drie elementen, namelijk de key "appel" met waarde 3, de key "banaan" met waarde 5, en de key "kers" met waarde 50.
 
-<iframe src="https://trinket.io/embed/python/08a7182023" width="100%" height="170" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python/08a7182023" width="100%" height="130" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+~~~python3  
+fruitmand = { "appel":3, "banaan":5, "kers":50 }
+~~~
 
 Om een waarde te vinden die hoort bij een specifieke sleutel, gebruik je dezelfde syntax als voor een list, behalve dat waar je bij een list de index schrijft, je bij een dictionary de gezochte key schrijft.
 
 In het voorbeeld zoeken we het getal op dat hoort bij de sleutel "banaan".
 
-<iframe src="https://trinket.io/embed/python3/d3e8024d76" width="100%" height="170" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+<iframe src="https://trinket.io/embed/python3/d3e8024d76" width="100%" height="130" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
+
+Je kunt via een for loop een dictionary doorlopen. De variabele in de for loop krijgt de waardes van de keys. (Als je nog niet weet hoe `format()` werkt lees dan eerst dat hoofdstuk).
+
+<iframe src="https://trinket.io/embed/python3/169223450f" width="100%" height="130" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ~~~python
 fruitmand =
