@@ -43,7 +43,7 @@ print( "{}:{}".format( key, fruitmand[key] ))
 
 Als je een dictionary element probeert te benaderen met een key die niet voorkomt in de dictionary, krijg je een runtime error (een foutmelding). Maar als je een nieuw element wilt toevoegen, kun je dat eenvoudigweg doen door een waarde toe te kennen aan een dictionary element met de nieuwe key. Bijvoorbeeld, om een "mango" toe te voegen aan de fruitmand, doe je het volgende:
 
-<iframe frameborder="0" width="100%" height="200px" src="https://repl.it/student_embed/assignment/917042/2eadc6ce904170122f5b0259bdeab762"></iframe>
+<iframe frameborder="0" width="100%" height="400px" src="https://repl.it/student_embed/assignment/917042/2eadc6ce904170122f5b0259bdeab762"></iframe>
 
 ~~~python
 fruitmand = { "appel":3, "banaan":5, "kers":50 }
