@@ -6,6 +6,8 @@ In dit boek leer je belangrijke vaardigheden die je nodig hebt om de module Pyth
 
 * Dictionary - Een datastructuur in Python. Je gebruikt dit als je sleutel-waarde paren wilt opslaan en/of als je ongeordende data wilt opslaan.
 
+* File IO - Bestanden inlezen en weer wegschrijven
+
 
 ## Credits
 

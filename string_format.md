@@ -39,7 +39,7 @@ print("Naam: {:>21}".format(naam))
 print("-"*27)
 ~~~
 
-Hierin wordt de `{}` vervangen door wat je meegeeft aan de functie. `>` betekent dat het rechts wordt uitgelijnd en `21` betekente dat het veld met de naam altijd 21 karakters breed is.
+Hierin wordt de `{}` vervangen door wat je meegeeft aan de functie (in dit geval `naam`). `>` betekent dat het rechts wordt uitgelijnd en `21` betekent dat het veld met de naam altijd 21 karakters breed is.
 
 Dit gaat best snel dus daarom wil ik verwijzen naar een uitstekende online uitleg over `format()`. Ga die uitleg doornemen en zorg dat je in ieder geval de basisprincipes snapt.
 
