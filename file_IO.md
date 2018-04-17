@@ -73,11 +73,12 @@ with open('testbestand') as f:
 
 for item in bestandsdata:
     if not item == '': # Sla lege regels over
+        # Hieronder zie je hoe je de inhoud van een lijst met twee elementen aan twee variabelen kunt toekennen
         woord1, woord2 = item.split("=")
 ~~~
 
 ### Het bestand regel voor regel inlezen
-Je kunt ook het bestand regel voor regel inlezen. Daarbij is het wel belangrijk dat je het bestand opent (met `open()`) maar ook goed afsluit (met `close()`). Je kunt hiervoor de `in`-operator voor gebruiken. Je kunt dat het einderegelkarakter eraf halen met de methode `strip('\n')` en daarna weer de string die je krijgt splitsen.
+Je kunt ook het bestand regel voor regel inlezen. Daarbij is het wel belangrijk dat je het bestand opent (met `open()`) maar ook goed afsluit (met `close()`). Je kunt voor het regel voor regel inlezen de `in`-operator voor gebruiken. Je kunt dat het einderegelkarakter eraf halen met de methode `strip('\n')` en daarna weer de string die je krijgt splitsen.
 
 Ik ga weer uit van het volgende bestand:
 
