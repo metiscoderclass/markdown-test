@@ -18,7 +18,7 @@ In Python wordt het regeleindekarakter altijd weergegeven door `\n`. Op Windows 
 ## Een bestand inlezen
 Een bestand inlezen kan op een aantal manieren waar we er hier een paar van gaan bespreken. Er zijn nog meer manieren maar met deze twee kom je al een heel eind.
 
-### Het hele bestand in één keer en splitsen
+### Het hele bestand in één keer lezen en splitsen
 Bekijk het volgende stuk code:
 
 ~~~python
@@ -94,6 +94,55 @@ f = open('testbestand')
 for line in f:
   woord1, woord2 = line.strip('\n').split('=')
   print("." + woord1 + "." + woord2 + ".")
+
+f.close()
+~~~
+
+## Een bestand wegschrijven in python
+Voor het wegschrijven van bestand in python moet je weten wat je wilt doen.
+
+Als het bestand al bestaat kun je namelijk verschillende dingen doen. Je kunt namelijk:
+
+* het hele bestand verwijderen en overschijven met nieuwe inhoud of
+* inhoud achter het bestand bijvoegen (append)
+
+Je kunt nog veel meer met bestanden maar voorlopig heb je aan deze twee manieren genoeg.
+
+### Bestaande inhoud overschrijven
+Om het bestand te openen en in zijn geheel te overschrijven gebruik je:
+
+~~~python
+f = open("leuk_bestand", 'w') #'w' zorgt ervoor dat het bestand overschreven wordt
+
+f.write("Dit is de eerste regel in dit bestand\n")
+f.write("Dit is het begin van de tweede regel ")
+f.write("En dit is de tweede helft\n")
+
+f.close()
+~~~
+
+Zoals je ziet moet je alle karakters die je in je bestand wilt hebben er naartoe schrijven, dus ook de regeleinde (`\n`).
+
+Eigenlijk best simpel toch?
+
+Je kunt natuurlijk ook `f.write()` gebruiken in een herhaling:
+
+~~~python
+f = open("bestandje", 'w')
+
+for i in range(15):
+  f.write("Dit is regel: " + str(i) + ".\n")
+
+f.close()
+~~~
+
+### Achteraan Toevoegen
+Wil je achter het bestand extra inhoud toevoegen dan gebruik je:
+
+~~~python
+f = open("bestandje", 'a') #'a' (append) zorgt ervoor dat inhoud achteraan toegevoegd wordt
+
+f.write("Dit komt onderin het bestand\n")
 
 f.close()
 ~~~
