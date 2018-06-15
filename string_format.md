@@ -1,5 +1,7 @@
 # Strings weergeven met .format()
 
+## De basis
+
 In dit hoofdstuk kijken we naar andere manieren om een `string` naar het scherm te printen. Alles wat we hier doen kun je ook doen met behulp van loops en extra variabelen. Het lijkt in het begin misschien onzinnig om het op te lossen met `.format()` maar later kunnen we echt de voordelen laten zien. Probeer dat dus in het achterhoofd te houden als we daar mee bezig gaan!
 
 Je kent wel bijvoorbeeld de volgende syntax:
@@ -44,3 +46,17 @@ Hierin wordt de `{}` vervangen door wat je meegeeft aan de functie (in dit geval
 Dit gaat best snel dus daarom wil ik verwijzen naar een uitstekende online uitleg over `format()`. Ga die uitleg doornemen en zorg dat je in ieder geval de basisprincipes snapt.
 
 Online uitleg: [https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3]
+
+## Uitlijnen
+
+Je wilt in een textbased programma vaak dat je regel een vast aantal karakters lang is, bijvoorbeeld 50. En soms wil je een kader om je hele programma hebben. Een regel kan er dus als volgt uit zien:
+
+~~~
+| Woord: vlieger                                 |
+~~~
+
+Of zo:
+
+~~~
+| Woord: vlieger           Vertaling: kite       |
+~~~

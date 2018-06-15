@@ -82,7 +82,7 @@ print(getal2)
 
 Je ziet dat `getal2` nog steeds gelijk is aan `5`. Dat terwijl je `getal1` hebt gewijzigd. Dit komt omdat `getal2` een kopie van de waarde van `getal1` krijgt. Dus als het ware een "nieuwe" waarde 5.
 
-Bij dictionaries werkt dat niet zo. Als je daar de dictionary toekent aan een nieuwe variabele, dan verwijst die variabele naar ~dezelfde~ dictionary.
+Bij dictionaries werkt dat niet zo. Als je daar de dictionary toekent aan een nieuwe variabele, dan verwijst die variabele naar **dezelfde** dictionary.
 
 ~~~python
 kleuren_auto = {"rood": 6, "blauw": 4}
@@ -175,9 +175,9 @@ print( "aantal aarbeien in de mand:", aardbei )
 Voer de code hierboven uit en bestudeer de uitkomst, omdat wat de code demonstreert over de `get()` methode erg nuttig is. Stel je voor dat een collectie van items hebt met corresponderende hoeveelheden, bijvoorbeeld, de inhoud van een fruitmand waarbij de keys de namen van fruit zijn, en de waardes de hoeveelheden. Als je in de fruitmand dictionary zoekt met de `get()` methode en als tweede argument een nul, kun je naar een willekeurig stuk fruit zoeken in de mand zonder dat je eerst moet controleren of het bestaat in de mand, want als je naar een fruitnaam vraagt die er niet als key in voorkomt, krijg je nul terug, en dat is precies wat je wilt zien.
 
 
-## Oefening
+<!-- ## Oefening
 ~~~python
-~~~
+~~~ -->
 
 ## Keys
 Zoals ik aangaf kan ieder onveranderbaar data type een dictionary key zijn. Dat betekent dat je strings, integers, en floats kunt gebruiken als keys. Je herinnert je wellicht dat tuples ook onveranderbaar zijn, wat betekent dat ook tuples als keys gebruikt kunnen worden.
@@ -192,7 +192,7 @@ Dus bij het tuple `(1, 2)` hoort dus de waarde `4`.
 Een eenvoudig voorbeeld van het nut van tuples als keys is een dictionary waarbij je informatie wilt opslaan die geassocieerd is met punten in een 2-dimensionale ruimte. Er is geen goede manier waarmee je een 2-dimensionaal punt kunt opslaan als een enkel getal of string. Het is niet onmogelijk (je kunt bijvoorbeeld het
 getallenpaar omzetten naar hun string-representatie en ze met een komma ertussen tot één string maken) maar het wordt al snel verwarrend (bijvoorbeeld, de strings "2,3", "2, 3", "+2,+3", en "02,03" zouden alle dezelfde tuple voorstellen, terwijl het verschillende keys zijn).
 
-## Opslaan van complexe waardes
+## Opslaan van complexe waarden
 
 Tot op dit moment heb ik alleen gesproken over het opslaan bij een key in een dictionary van een enkele waarde van een enkel data type. Het is echter ook mogelijk om complexe waardes op te slaan in een dictionary. De waardes kunnen willekeurige Python objecten zijn. Bijvoorbeeld, je kunt bij iedere key een list opslaan. Hieronder staat een dictionary waarbij ik leerlingen opsla die badges behaalt hebben. De persoon cursus wordt geïdentificeerd door de naam. De badges worden geïdentificeerd door hun badgenummer.
 
