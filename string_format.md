@@ -5,7 +5,6 @@
 In dit hoofdstuk kijken we naar andere manieren om een `string` naar het scherm te printen. Alles wat we hier doen kun je ook doen met behulp van loops en extra variabelen. Het lijkt in het begin misschien onzinnig om het op te lossen met `.format()` maar later kunnen we echt de voordelen laten zien. Probeer dat dus in het achterhoofd te houden als we daar mee bezig gaan!
 
 Je kent wel bijvoorbeeld de volgende syntax:
-<iframe src="https://trinket.io/embed/python3/dbf0cd3a4e" width="100%" height="130" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
 ~~~python
 naam = input("Hoe heet je? ")
