@@ -57,5 +57,25 @@ Je wilt in een textbased programma vaak dat je regel een vast aantal karakters l
 Of zo:
 
 ~~~
-| Woord: vlieger           Vertaling: kite       |
+| Woord: vlieger        Vertaling: kite          |
+~~~
+
+Het tweede voorbeeld kunnen we maken als volgt:
+
+~~~python
+woord = "vlieger"
+vertaling = "kite"
+print("| Woord: {:14} Vertaling: {13}".format(woord, vlieger))
+~~~
+
+Maar in een programma dat je schrijft heb je misschien wel 100 van dit soort printregels. Wat nou als je dan niet 50 maar 60 karakters breed wilt werken? Dan moet je het overal veranderen! Dan mis je er vast één of je maakt een rekenfout. We willen dit gaan oplossen met behulp van een constante waarde voor de breedte van het scherm.
+
+We beginnen weer eenvoudiger met het voorbeeld:
+~~~
+| Woord: vlieger                                 |
+~~~
+
+We zeggen nu `SCHERMBREEDTE = 50` en gaan het aantal karakters voor het uitlijnen uitrekenen aan de hand van de schermbreedte.
+
+~~~python
 ~~~
