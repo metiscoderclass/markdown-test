@@ -48,7 +48,17 @@ Online uitleg: [https://www.digitalocean.com/community/tutorials/how-to-use-stri
 
 ## Uitlijnen
 
-Je wilt in een textbased programma vaak dat je regel een vast aantal karakters lang is, bijvoorbeeld 60. En soms wil je een kader om je hele programma hebben. Een regel kan er dus als volgt uit zien:
+Je wilt in een textbased programma vaak dat je regel een vast aantal karakters lang is, bijvoorbeeld 60. En soms wil je een kader om je hele programma hebben zoals als volgt:
+~~~
+------------------------------------------------------------
+|                       Menu                               |
+|                                                          |          
+|  o: start het overhoren                                  |
+|  q: sluit het programma                                  |
+------------------------------------------------------------
+~~~
+
+Een regel bij het overhoren kan er dan als volgt uit zien:
 
 ~~~
 | Woord: vlieger                                           |
@@ -75,10 +85,10 @@ We beginnen weer eenvoudiger met het voorbeeld:
 | Woord: vlieger                                 |
 ~~~
 
-We zeggen nu `SCHERMBREEDTE = 50` en gaan het aantal karakters voor het uitlijnen uitrekenen aan de hand van de schermbreedte en de maximale voordlengte. We kiezen ervoor dat woorden maximaal 14 karakters lang kunnen zijn.
+We zeggen nu `SCHERMBREEDTE = 60` en gaan het aantal karakters voor het uitlijnen uitrekenen aan de hand van de schermbreedte en de maximale voordlengte. We kiezen ervoor dat woorden maximaal 14 karakters lang kunnen zijn.
 
 ~~~python
-SCHERMBREEDTE = 50
+SCHERMBREEDTE = 60
 MAX_WOORD_LENGTE = 14
 
 woord = "vlieger"
@@ -120,8 +130,9 @@ MAX_WOORD_LENGTE = 14
 woord = "vlieger"
 vertaling = "kite"
 
-def print_regel(regelstring):
-  print("| {:" + str(SCHERMBREEDTE - 4)+ "} |".format(regelstring))
+def print_regel(regel):
+  # Haal 4 karakters van schermbreedte af: '| ' en ' |'
+  print("| {:" + str(SCHERMBREEDTE - 4)+ "} |".format(regel))
 
 print_regel("Woord: {:^" + str(MAX_WOORD_LENGTE) "} Vertaling: {:^" + str(MAX_WOORD_LENGTE) + "}".format(woord, vertaling))
 ~~~
