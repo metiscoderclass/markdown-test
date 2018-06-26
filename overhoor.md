@@ -24,7 +24,7 @@ def main():
 
 In de tekst staat *wat* de functie moet gaan doen. Hoe het dat gaat doen ga jij (deels) bepalen. Mocht je in de vormgeving van je programma wat willen veranderen mag dat uiteraard. Je hoeft niet '=' en '|' te gebruiken.
 
-Ook geven we een lijst met constant waarden (in hoofdletters) die je globaal in je programma kunt gebruiken. Als je andere constanten wil kan dat ook maar zorg er wel voor dat het waarden zijn die niet vaak veranderen! De waarde van een constante verander je niet terwijl je het programma aan het uitvoeren bent.
+Ook geven we een lijst met constante waarden (in hoofdletters) die je globaal in je programma kunt gebruiken. Als je andere constanten wil kan dat ook maar zorg er wel voor dat het waarden zijn die niet vaak veranderen! De waarde van een constante verander je niet terwijl je het programma aan het uitvoeren bent.
 
 ## Programmaskelet
 ~~~
@@ -62,8 +62,8 @@ FUNCTIONS
         Returnwaarde: Geen
 
     nieuwe_lijst_naam()
-        Gebruikt:
-        Parameters:
+        Gebruikt: -
+        Parameters: -
         Returnwaarde: de lijst_naam van de nieuw gekozen lijst
 
     overhoren(woordenlijst)
@@ -86,12 +86,17 @@ FUNCTIONS
         ===============
         Dus een volle regel met '='-tekens en een regel die begint en eindigt met een '|'.
 
+        Gebruikt: SCHERMBREEDTE
+        Parameters: -
+        Returnwaarde: -
+
     print_header()
         Print het volgende over de hele breedte van het scherm:
         ===============
         |             |
         Dus een volle regel met '='-tekens en een regel die begint en eindigt met een '|'.
 
+        Gebruikt: SCHERMBREEDTE
         Parameters: -
         Returnwaarde: -
 
@@ -152,5 +157,5 @@ DATA
     SCHERMHOOGTE = 40
     STANDAARD_LIJST = 'EN-NED'
     STOPPEN = 'q'
-      TOEVOEGEN = 't'
+    TOEVOEGEN = 't'
 ~~~
