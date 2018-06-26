@@ -1,5 +1,6 @@
 # Scope parameters en returnwaarden
-Scope simpelgezegd antwoord op de vraag: "Waar heb ik toegang tot deze variabele?"
+## Scope
+Scope geeft simpelgezegd antwoord op de vraag: "Waar heb ik toegang tot deze variabele?"
 
 Tot nu toe ben je gewend om met veel variabelen te werken die je aan het begin van je programma definieert. Deze variabelen zijn dan overal in je programma te benaderen. Ook in iedere functie.
 
@@ -16,6 +17,13 @@ def print_boodschap():
   print("Je bent " + str(leeftijd) + " jaar oud.")
 
 print_boodschap()
+leeftijd = 20
+print_boodschap()
 ~~~
 
-We kunnen overal de leeftijd uitprinten.
+We kunnen overal de leeftijd lezen, gebruiken en veranderen.
+
+## parameters
+
+
+## returnwaarden
