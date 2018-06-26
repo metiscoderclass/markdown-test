@@ -45,11 +45,11 @@ Nog een voorbeeld:
 ~~~python
 naam = "Henk"
 
-def vraag_naam():
+def verander_naam():
   naam = "Arie"
   print(naam)
 
-vraag_naam()
+verander_naam()
 print(naam)
 ~~~
 
