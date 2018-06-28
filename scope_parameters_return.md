@@ -22,7 +22,7 @@ leeftijd = 20
 print_boodschap()
 ~~~
 
-We kunnen overal de leeftijd lezen, gebruiken en veranderen. Als je in python een globale variabele wilt veranderen in een functie, dan heb je het woord `global` nodig. We gaan hier verder niet op in omdat het beter is zo min mogelijk globale variabelen te gebruiken.
+We kunnen overal de leeftijd lezen, gebruiken en veranderen. Als je in python een globale variabele wilt veranderen in een functie, dan heb je het woord `global` nodig. We gaan hier verder niet op in omdat het beter is zo min mogelijk globale variabelen te gebruiken. Wil je het echt weten: [Engelstalige uitleg over global in Python](https://www.programiz.com/python-programming/global-keyword).
 
 Het probleem met globale variabelen is dat je er overal toegang toe hebt. Als je een groter programma hebt heb je niet meer scherp voor ogen waar je allemaal die globale variabele gebruikt. Hierdoor heb je minder overzicht en is de kans op bugs groter. Zoals met elke regel zijn er uitzonderingen dus als het beter is toch globaal een variabele te gebruiken dan moet je het zeker doen.
 
