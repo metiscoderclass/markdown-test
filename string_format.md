@@ -93,7 +93,7 @@ MAX_WOORD_LENGTE = 14
 
 woord = "vlieger"
 
-print("| Woord: {:" + str(MAX_WOORD_LENGTE)+ "}".format(woord) + " "*(SCHERMBREEDTE - MAX_WOORD_LENGTE - 10) + "|")
+print(("| Woord: {:" + str(MAX_WOORD_LENGTE)+ "}").format(woord) + " "*(SCHERMBREEDTE - MAX_WOORD_LENGTE - 10) + "|")
 ~~~
 
 Het stuk `"| Woord: {:" + str(MAX_WOORD_LENGTE)+ "}"` zal door Python veranderd worden in `"| Woord: {:14}"`.
@@ -116,7 +116,7 @@ MAX_WOORD_LENGTE = 14
 
 woord = "vlieger"
 vertaling = "kite"
-print("| Woord: {:" + str(MAX_WOORD_LENGTE) + "} Vertaling: {:" + str(MAX_WOORD_LENGTE) + "}".format(woord, vlieger) + " "*str(SCHERMBREEDTE - 2*MAX_WOORD_LENGTE - 22) + "|")
+print(("| Woord: {:" + str(MAX_WOORD_LENGTE) + "} Vertaling: {:" + str(MAX_WOORD_LENGTE) + "}").format(woord, vlieger) + " "*str(SCHERMBREEDTE - 2*MAX_WOORD_LENGTE - 22) + "|")
 ~~~
 
 De code ziet er onoverzichtelijker uit. Daar gaan we straks wat aan doen. Maar het probleem van variabele schermbreedte is nu opgelost. Het `|`-teken wordt altijd mooi rechts uitgelijnd. Maar als we `|` willen wijzigen in bijvoorbeeld `#` dan moeten we dat nog steeds op heel veel plekken in de code gaan doen!
@@ -132,9 +132,9 @@ vertaling = "kite"
 
 def print_regel(regel):
   # Haal 4 karakters van schermbreedte af: '| ' en ' |'
-  print("| {:" + str(SCHERMBREEDTE - 4)+ "} |".format(regel))
+  print(("| {:" + str(SCHERMBREEDTE - 4)+ "} |").format(regel))
 
-print_regel("Woord: {:^" + str(MAX_WOORD_LENGTE) "} Vertaling: {:^" + str(MAX_WOORD_LENGTE) + "}".format(woord, vertaling))
+print_regel(("Woord: {:^" + str(MAX_WOORD_LENGTE) "} Vertaling: {:^" + str(MAX_WOORD_LENGTE) + "}").format(woord, vertaling))
 ~~~
 
 Dat ziet er al een stuk beter uit! En we hebben meteen de woorden `woord` en `vertaling` laten centreren.
