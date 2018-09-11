@@ -18,3 +18,5 @@ We hebben de inhoud van het hoofdstuk vrijwel geheel overgenomen. Het taalgebrui
 
 ## Over ons
 Dit boek is samengesteld door Jurjen Hickmann (j.hickmann@coderclass.nl) voor de Coderclass. Kijk op https://coderclass.nl voor meer informatie over de Coderclass.
+
+[dicts.md](dicts.md)
